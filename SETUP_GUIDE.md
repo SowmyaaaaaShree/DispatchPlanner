@@ -10,7 +10,7 @@
 
 1. **Navigate to project directory:**
    ```powershell
-   cd d:\xampp\htdocs\Dispatch-Planner
+   cd d:\xampp\htdocs\DispatchPlanner
    ```
 
 2. **Install dependencies:**

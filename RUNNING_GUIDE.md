@@ -11,7 +11,7 @@ The Dispatch Planner service is **fully operational** and running on `http://loc
 The application is already running. If you need to restart it:
 
 ```powershell
-cd d:\xampp\htdocs\Dispatch-Planner
+cd d:\xampp\htdocs\DispatchPlanner
 php artisan serve --host=localhost --port=8000 --tries=1 --no-reload
 ```
 
@@ -270,7 +270,7 @@ The application integrates with **4 free APIs** with automatic fallback:
 
 ### Run with Docker
 ```powershell
-cd d:\xampp\htdocs\Dispatch-Planner
+cd d:\xampp\htdocs\DispatchPlanner
 
 # Build and start services
 docker compose up --build
@@ -343,7 +343,7 @@ php artisan config:clear
 
 ### View Logs
 ```powershell
-cd d:\xampp\htdocs\Dispatch-Planner
+cd d:\xampp\htdocs\DispatchPlanner
 Get-Content storage/logs/laravel.log | Select-Object -Last 50
 ```
 
@@ -352,7 +352,7 @@ Get-Content storage/logs/laravel.log | Select-Object -Last 50
 ## 📚 Project Structure
 
 ```
-d:\xampp\htdocs\Dispatch-Planner\
+d:\xampp\htdocs\DispatchPlanner\
 ├── app/
 │   ├── Http/Controllers/
 │   │   ├── DispatchBatchController.php
